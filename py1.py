@@ -34,7 +34,7 @@ assert nagyobb(-12, -8) == -8
 #---------------------------------------------------------
 
 def szamtani_kozep(szam1, szam2):
-    return (szam1 + szam2) // 2
+    return (szam1 + szam2) / 2
     pass # Írd a kódodat a következő sorokba!
 
 
@@ -201,5 +201,7 @@ def abszolut(szam):
 assert abszolut(-7) == 7
 assert abszolut( 0) == 0
 #========================================
+
+
 
 
